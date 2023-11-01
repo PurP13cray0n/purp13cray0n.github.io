@@ -1,4 +1,11 @@
+/* Target all images within the sections */
+.banner img,
+.social-icons-container img {
+    height: 96px; /* Set the height of the images */
+    width: auto; /* Allow the width to adjust based on the height to maintain aspect ratio */
+}
 
+/* Add any additional styles to customize your website's appearance */
 body {
     background-color: #f5f5f5; /* Replace with your preferred background color or image */
 }
@@ -67,11 +74,3 @@ body {
     margin: 0 10px;
 }
 
-/* Target all images within the sections */
-.banner img,
-.social-icons-container img {
-    height: 96px; /* Set the height of the images */
-    width: auto; /* Allow the width to adjust based on the height to maintain aspect ratio */
-}
-
-/* Add any additional styles to customize your website's appearance */
